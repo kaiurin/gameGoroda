@@ -8,7 +8,7 @@ const conString = "postgres://postgres:1111@localhost:5432/cities";
 const client = new pg.Client(conString);
 const b = 1;
 
-let usedTowns = [];
+let usedTowns = [];  // массив использованных городов
 let gameResult;
 let answerCheckResult;
 let cityCheckOperator_b;
