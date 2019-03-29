@@ -162,33 +162,3 @@ function startGame() {
 }
 
 startGame();
-
-/*
- function startGame() {
-        rl.question(city + '-', (answer) => {
-            answer = answer.substring(0, 1).toLowerCase();
-            if (city.substr(-1) === answer) {
-                console.log('True');
-            }
-            else {
-                console.log('False');
-            }
-        })
-    }
-
-let str = 'Марго';
-let test = 'Андрей';
-str = str.substring(0,1); // первая буква
-test = test.substr(-1); // последняя буква
-
-console.log(str);
-console.log(test);
-
-
-if ((townsArr.indexOf(city) !== -1) === true && (townsArr.indexOf(answer) !== -1) === true) {
-///
-            }
-*/
-
-/*
- */
